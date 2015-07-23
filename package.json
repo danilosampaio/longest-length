@@ -1,0 +1,30 @@
+{
+  "name": "longest-length",
+  "version": "0.0.1",
+  "description": "Get the longest word length in text. It also correctly calculate the length of the words containing ansi escape codes.",
+  "license": "MIT",
+  "repository": "danilosampaio/longest-length",
+  "author": {
+    "name": "Danilo Sampaio",
+    "email": "danilo.sampaio@gmail.com",
+    "url": "github.org/danilosampaio"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "strip-ansi": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
