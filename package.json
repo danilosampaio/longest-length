@@ -1,7 +1,7 @@
 {
   "name": "longest-length",
   "version": "0.0.1",
-  "description": "Get the longest word length in text. It also correctly calculate the length of the words containing ansi escape codes.",
+  "description": "Get the longest word length in the text. It also correctly calculate the length of the words containing ansi escape codes.",
   "license": "MIT",
   "repository": "danilosampaio/longest-length",
   "author": {

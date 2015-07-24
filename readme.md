@@ -1,6 +1,6 @@
 # longest-length [![Build Status](https://travis-ci.org/danilosampaio/longest-length.svg?branch=master)](https://travis-ci.org/danilosampaio/longest-length)
 
-> Get the longest word length in text. 
+> Get the longest word length in the text. 
 > It also correctly calculate the length of the words containing ansi escape codes.
 
 
