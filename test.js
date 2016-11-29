@@ -14,4 +14,10 @@ describe('longest-length', function(){
 	it('should handle correctly new lines', function () {
 		assert.strictEqual(longestLength('this is a dum\nmy text'), 4);
 	});
+
+	it('should count astral characters correctly', function () {
+		assert.strictEqual(longestLength('🦄🍺🦄'), 3);
+		assert.strictEqual(longestLength('🍺🦄\n🦄'), 2);
+		assert.strictEqual(longestLength('zzz🦄\nzzzzz🦄\nzzz'), 6);
+	});
 });

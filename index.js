@@ -1,5 +1,6 @@
 'use strict';
 var stripAnsi = require('strip-ansi');
+var toArray = require('lodash.toarray');
 
 module.exports = function (str, opts) {
 	if (typeof str !== 'string') {
@@ -8,12 +9,12 @@ module.exports = function (str, opts) {
 
 	opts = opts || {};
 
-	var stripAnsiCodes = opts.stripAnsiCodes || true;	
+	var stripAnsiCodes = opts.stripAnsiCodes || true;
 	var splitRegex = opts.separator || /\S+/g;
 
 	var words = stripAnsiCodes ? stripAnsi(str).match(splitRegex) : str.match(splitRegex);
 
-	return words.reduce(function(p,c){
-		return c.length > p.length ? c : p;
-	}).length;
+	return toArray(words.reduce(function(p,c){
+		return toArray(c).length > toArray(p).length ? c : p;
+	})).length;
 };
