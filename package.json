@@ -1,7 +1,7 @@
 {
   "name": "longest-length",
-  "version": "0.1.0",
-  "description": "Get the longest word length in the text. It also correctly calculate the length of the words containing ansi escape codes.",
+  "version": "0.1.1",
+  "description": "Get the length of the longest word in a string. It also correctly calculates the length of the words containing ANSI escape codes.",
   "license": "MIT",
   "repository": "danilosampaio/longest-length",
   "author": {
@@ -9,6 +9,11 @@
     "email": "danilo.sampaio@gmail.com",
     "url": "github.org/danilosampaio"
   },
+  "contributors": [{
+    "name": "Roy Reveltas",
+    "email": "roy@codeandsend.com",
+    "url": "github.org/revelt"
+  }],
   "engines": {
     "node": ">=0.10.0"
   },

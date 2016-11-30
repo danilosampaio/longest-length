@@ -1,7 +1,7 @@
 # longest-length [![Build Status](https://travis-ci.org/danilosampaio/longest-length.svg?branch=master)](https://travis-ci.org/danilosampaio/longest-length)
 
-> Get the longest word length in the text. 
-> It also correctly calculate the length of the words containing ansi escape codes and astral symbols.
+> Get the length of the longest word in a string.
+> It also correctly calculates the length of the words containing ANSI escape codes and astral symbols.
 
 
 ## Install
